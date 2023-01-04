@@ -3,5 +3,14 @@
 version = 3
 
 [[package]]
+name = "rot13"
+version = "0.1.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "944f240972701806a97995e54c5b74c14a62d8423b26f71759386300749e91db"
+
+[[package]]
 name = "simple-file-encryption"
 version = "0.1.0"
+dependencies = [
+ "rot13",
+]
